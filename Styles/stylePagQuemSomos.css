@@ -1,0 +1,169 @@
+body {
+    background-image: url(/Imagens/4964560.jpg);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    zoom: 75%;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 15px;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.3s all;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 15px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: 200;
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 0;
+  }
+  
+  span {
+    color: #412402;
+  }
+  
+  #title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .content {
+    text-align: justify;
+    margin-right: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #e96636;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .conteudo {
+    max-width: 700px;
+    width: 100%;
+    text-align: justify;
+  }
+  
+  #quem-somos {
+    padding: 50px 0;
+    background-color: #4e1a1a;
+  }
+  
+  #quem-somos h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  #quem-somos p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  #quem-somos .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .team-member {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .team-member p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+  }
+  
+  /* Media queries para dispositivos de tela média */
+  @media screen and (max-width: 992px) {
+    h1 {
+      font-size: 36px;
+    }
+    
+    h2 {
+      font-size: 24px;
+    }
+    
+    #quem-somos p {
+      font-size: 18px;
+    }
+    
+    .team-member {
+      width: 100%;
+    }
+  }
+  
+  /* Media queries para dispositivos de tela pequena */
+  @media screen and (max-width: 768px) {
+    #quem-somos .team-members {
+      justify-content: flex-start;
+    }
+    
+    .team-member {
+      width: 100%;
+    }
+  }
+  

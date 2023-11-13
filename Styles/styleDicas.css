@@ -1,0 +1,83 @@
+body {
+    background-image: url(/Imagens/4964560.jpg);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    zoom: 90%;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 200;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.dicas-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 30px;
+}
+
+.dica {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dica img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.dica h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.dica p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .dicas-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .dicas-container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,90 @@
+h1 {
+    text-align: center;
+    font-size: 20px;
+    color: #ff6a28;
+  }
+  
+  .conteudo ul li {
+    display: list-item;
+  }
+  
+  .banner {
+    margin: 200px;
+  }
+  
+  .Menu-Principal li {
+    color: white;
+  }
+  
+  .card {
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 300;
+  }
+  
+  .card li {
+    list-style-position: inside;
+    line-height: 40px;
+    color: black;
+  }
+  
+  .card ol li {
+    display: list-item;
+  }
+  
+  .card-img {
+    width: 500px;
+    padding: 45px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 5px;
+  }
+  
+  .titulo-receita {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  
+  .imagens-ilustrativas {
+    width: 500px;
+    height: 85%;
+  }
+  
+  /* Media queries para dispositivos de tela média */
+  @media (max-width: 768px) {
+    .card, .card-img {
+      width: 100%;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 500px;
+    }
+  
+    .banner {
+      margin: 100px;
+    }
+  
+    .titulo-receita {
+      font-size: 24px;
+    }
+  }
+  
+  /* Media queries para dispositivos de tela pequena */
+  @media (max-width: 480px) {
+    .banner {
+      margin: 50px;
+    }
+  
+    .card, .card-img {
+      padding: 10px;
+    }
+  
+    .titulo-receita {
+      font-size: 20px;
+    }
+  }
+  

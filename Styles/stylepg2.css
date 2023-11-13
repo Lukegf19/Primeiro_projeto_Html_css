@@ -1,0 +1,126 @@
+main {
+  margin-left: -10px;
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+.colunas {
+  padding: 15px;
+  margin: -6px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.colunas img {
+  border: 1px solid rgb(248, 248, 248);
+  width: 320px;
+  height: 250px;
+  object-fit: cover;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.categorias {
+  padding: 20px;
+}
+
+.categoria-Doces {
+  padding: 20px;
+}
+
+.categoria-suco {
+  padding: 20px;
+}
+
+.categoria-Comidas {
+  padding: 20px;
+}
+
+.menu-lateral {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 145px;
+  background-image: url(/Imagens/4964560.jpg);
+  padding: 9px;
+
+}
+
+.menu-lateral ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-lateral li {
+  margin-bottom: 10px;
+}
+
+.menu-lateral a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.menu-lateral a:hover {
+  color: rgb(0, 0, 0);
+}
+
+/* Media queries para dispositivos de tela média */
+@media (max-width: 768px) {
+  main {
+    width: 150px;
+    padding: 6px;
+  }
+
+  .colunas {
+    padding: 6px;
+  }
+
+  .colunas img {
+    max-width: 200px;
+
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  .menu-lateral {
+    display: none;
+  }
+}
+
+/* Media queries para dispositivos de tela pequena */
+@media (max-width: 480px) {
+  footer {
+    font-size: 16px;
+  }
+
+  .colunas {
+    padding: 5px;
+  }
+
+  .menu-lateral {
+    width: 100px;
+    padding: 5px;
+  }
+
+  .menu-lateral a {
+    padding: 5px;
+  }
+}
